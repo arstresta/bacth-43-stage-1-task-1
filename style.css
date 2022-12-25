@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    height: 100vh;
+    padding: 30px;
+    background-color: #e3e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container .card{
+    width: 90%;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.container .card-detail{
+    margin: 0px 250px;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.text-paragraf{
+    text-align: justify;
+}
+
+.button{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button .btn-contact{
+    width: fit-content;
+    background-color: #111727;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #111727;
+    transition: all ease 0.3s;
+}
+
+.button .btn-contact:hover{
+    background-color: #fff;
+    color: #111727;
+}
+
+.button .btn-cv{
+    font-size: 15px;
+    color: #111727;
+}
+
+.sosmed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sosmed a{
+    background-color: #111727;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.container .pict{
+    width: fit-content;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.pict .image{
+    width: 200px;
+}
+
+.pict .image img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pict .pict-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
